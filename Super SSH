@@ -1,0 +1,7 @@
+We'll use "SSH" to connect in to the terminal using the user "ctf-palyer" and the password "6abf4a82" at port "49226".
+
+cmd --> ssh -p 49226 ctf-player@titan.picoctf.net
+
+It will then prompt you for a password. Put "6abf4a82" as the password now.
+
+Thus, the flag picoCTF{s3cur3_c0nn3ct10n_65a7a106} was obtained.
