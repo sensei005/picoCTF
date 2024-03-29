@@ -1,39 +1,39 @@
-Here we will login via SSH in terminal
-So, start by lauching instance.
-After Launching instance we will get "Challenge endpoints"
+We'll use SSH to log in to the terminal here.
+Thus, launch the instance first.
 
-cmd --> ssh ctf-player@venus.picoctf.net -p 59139
+Following instance launch, "Challenge endpoints" will be sent.
 
-After that it will ask if you want to continue. Type "yes".
-Now it will ask for the password "a13b7f9d"
-After loggin in type "ls" to list the directory.
+cmd --> ssh venus.picoctf.net -p 59139 ctf-player
 
-Now we are going to see there are 2 txt files, "1of3.flag.txt" and "instructions-to-2of3.txt"
-Start by seeing the contents of the files
+It will then ask you if you wish to proceed. Enter "yes."
+This time, the password "a13b7f9d" will be requested.
+Type "ls" to list the directory after logging in.
 
-cmd --> cat 1of3.flag.txt
+Currently, we will observe that there are two text files: "instructions-to-2of3.txt" and "1of3.flag.txt".
+Look at the files' contents first.
 
-We will get to see that 1of3 file has content "picoCTF{xxsh_"
+cmd --> flag.txt /cat 1of3.
 
-Now, type "cd .." to go to the previous directory and list its content, type "ls"
-we wiil see that there is a file named "3of3.flag.txt"
+We will observe that "picoCTF{xxsh_" is the content of 1of3 files.
 
-cmd --> cat 3of3.flag.txt
+To view the contents of the previous directory, type "ls" after typing "cd.." We will notice that a file called "3of3.flag.txt" is present.
 
-It contains "71be5264}"
+cat 3of3.flag.txt; command
 
-Now again go to the previous directory by typing "cd .."
-We will get a directory named "ctf-player"
+There is "71be5264}" in it.
 
-Now again go to the previous directory by typing "cd .."
-We will see another txt file named "2of3.flag.txt"
-List the content
+Enter "cd.." to return to the previous directory.
+A directory called "ctf-player" will be obtained.
+
+Enter "cd.." to return to the previous directory.
+Another text file called "2of3.flag.txt" will be visible.
+Enumerate the contents
 
 cmd --> cat 2of3.flag.txt
 
-we will get "0ut_0f_\/\/4t3r_"
+"0ut_0f_\/\/4t3r_" is what we shall receive.
 
 
-Now, we have got all parts of the flag --> picoCTF{xxsh_0ut_0f_\/\/4t3r_71be5264}
+We now possess every component of the flag --> picoCTF{xxsh_0ut_0f_\/\/4t3r_71be5264}
 
 commands image --> https://github.com/sensei005/picoCTF/issues/3#issue-2215692559
