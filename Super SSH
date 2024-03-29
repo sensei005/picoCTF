@@ -5,3 +5,5 @@ cmd --> ssh -p 49226 ctf-player@titan.picoctf.net
 It will then prompt you for a password. Put "6abf4a82" as the password now.
 
 Thus, the flag picoCTF{s3cur3_c0nn3ct10n_65a7a106} was obtained.
+
+commands Screen Shot --> https://github.com/sensei005/picoCTF/issues/4#issue-2215766768
