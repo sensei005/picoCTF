@@ -1,0 +1,12 @@
+Initially, we must use "wget" to download the "static" file.
+
+ wget https://mercury.picoctf.net/static/0f6ea599582dcce7b4f1ba94e3617baf/static
+
+Following download, a file named "static" appears.
+We see the flag when we open the file.
+
+cmd --> vim static
+
+picoCTF{t34s3r_6f8c8200_d15a5m}
+
+command screen shots : https://github.com/sensei005/picoCTF/issues/6#issue-2215906107
