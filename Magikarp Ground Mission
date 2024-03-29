@@ -1,0 +1,37 @@
+Here we will login via SSH in terminal
+So, start by lauching instance.
+After Launching instance we will get "Challenge endpoints"
+
+cmd --> ssh ctf-player@venus.picoctf.net -p 59139
+
+After that it will ask if you want to continue. Type "yes".
+Now it will ask for the password "a13b7f9d"
+After loggin in type "ls" to list the directory.
+
+Now we are going to see there are 2 txt files, "1of3.flag.txt" and "instructions-to-2of3.txt"
+Start by seeing the contents of the files
+
+cmd --> cat 1of3.flag.txt
+
+We will get to see that 1of3 file has content "picoCTF{xxsh_"
+
+Now, type "cd .." to go to the previous directory and list its content, type "ls"
+we wiil see that there is a file named "3of3.flag.txt"
+
+cmd --> cat 3of3.flag.txt
+
+It contains "71be5264}"
+
+Now again go to the previous directory by typing "cd .."
+We will get a directory named "ctf-player"
+
+Now again go to the previous directory by typing "cd .."
+We will see another txt file named "2of3.flag.txt"
+List the content
+
+cmd --> cat 2of3.flag.txt
+
+we will get "0ut_0f_\/\/4t3r_"
+
+
+Now, we have got all parts of the flag --> picoCTF{xxsh_0ut_0f_\/\/4t3r_71be5264}
