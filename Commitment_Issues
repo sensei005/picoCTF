@@ -1,4 +1,9 @@
-Here we have got a zip file named Challenge.zip
+Here we have got a zip file named "Challenge.zip"
 So we will first unzip it and see its contents.
-/home/noob/Pictures/Screenshots/Screenshot from 2024-03-29 06-20-23.png
-unzip challenge.zip
+https://github.com/sensei005/picoCTF/issues/1#issue-2215638162
+cmd --> unzip challenge.zip
+After unzipping it, we got a directory named "drop-in".
+After entering the directory we got a file named "message.txt"
+cmd --> cat message.txt
+we got the flag.
+https://github.com/sensei005/picoCTF/issues/2#issue-2215650346
