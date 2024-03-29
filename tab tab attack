@@ -1,0 +1,26 @@
+First, we will use the wget command to download the zip file.
+
+CMD --> wget https://mercury.picoctf.net/static/9689f2b453ad5daeb73ca7534e4d1521/
+
+We will unzip the file after downloading it.
+
+cmd --> unzip Addadshashanammu.zip
+
+We will now explore the directories in more detail.
+
+cmd -> cd Addadshashanammu/Almurbalarammi/Assurnabitashpi/Ashalmimilkala/Maelkashishi/Onnissiralis/Ularradallaku
+
+Once we navigate to the "Ularradallaku" directory, we observe that the file "fang-of-haynekhtnamet" is present.
+
+We'll see what it contains.
+
+cmd --> cat fang-of-haynekhtnamet
+
+When we open it, the following flag appears: picoCTF{l3v3l_up!_t4k3_4_r35t!_2bcfb2ab}
+
+instructions screenshot --> https://github.com/sensei005/picoCTF/issues/5#issue-2215810781 on github
+
+
+
+
+
