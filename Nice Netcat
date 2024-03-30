@@ -1,0 +1,9 @@
+It is evident that we have been given a netcat command here.
+
+cmd --> nc mercury.picoctf.net 21135 
+
+The command produces a succession of ASCII values when it is executed.
+
+After translating the ASCII values to text, the flag was obtained. {https://www.duplichecker.com/ascii-to-text.php}
+
+picoCTF{g00d_k1tty!_n1c3_k1tty!_afd5fda4}
