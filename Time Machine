@@ -1,0 +1,21 @@
+First, we will use the "wget" command to download the zip file.
+
+cmd --> wget https://artifacts.picoctf.net/c_titan/163/challenge.zip
+
+We will unzip the zip file after downloading it.
+
+cmd --> unzip challenge.zip
+
+It is evident that a directory called "drop-in" exists.
+
+We now enter the directory and make a list of its contents.
+
+cmd -- > ls -al
+
+As we can see, the file has the ".git" extension now.
+
+Thus, we will use the "reflog" tool to view the changes in Git.
+
+cmd --> git reflog
+
+As a result, picoCTF{t1m3m@ch1n3_88c35e3b} was generated.
