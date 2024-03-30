@@ -1,0 +1,20 @@
+Initially, we must download these three files: "this password," "the flag," and "this python script."
+
+cmd --> wget https://mercury.picoctf.net/static/325a52d249be0bd3811421eacd2c877a/ende.py
+cmd --> wget https://mercury.picoctf.net/static/325a52d249be0bd3811421eacd2c877a/flag.txt.en
+cmd --> wget https://mercury.picoctf.net/static/325a52d249be0bd3811421eacd2c877a/pw.txt
+
+Upon downloading these three files, we will see the content of "pw.txt"
+
+Cmd --> cat pw.txt
+
+Run the "ende.py" Python file now.
+
+cmd --> python ende.py
+Cmd --> python ende.py -d flag.txt.en
+
+It will then prompt you for a password; enter the one you obtained from the "pw.txt" file.
+
+As a result, picoCTF{4p0110_1n_7h3_h0us3_ac9bd0ff} was sent to us.
+
+command screen shot : github.com/sensei005/picoCTF/issues/8#issue-2216381147
