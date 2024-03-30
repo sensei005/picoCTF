@@ -1,0 +1,13 @@
+Using the "wget" command, we will first download the "this program" file.
+
+cmd --> wget https://mercury.picoctf.net/static/f95b1ee9f29d631d99073e34703a2826/warm
+
+That "warm" file was then downloaded.
+We shall now examine the file's contents.
+
+cmd --> warm vim
+
+Thus, we were given the flag.
+picoCTF{b1scu1ts_4nd_gr4vy_f0668f62}
+
+https://github.com/sensei005/picoCTF/issues/7#issue-2216375188
