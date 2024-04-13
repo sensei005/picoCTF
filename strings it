@@ -13,4 +13,4 @@ cmd --> strings strings | grep pico
 
 Thus, we were given the flag.
 
-picoCTF{1T_827aee91} 5tRIng5}
+picoCTF{5tRIng5_1T_827aee91}
