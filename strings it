@@ -1,0 +1,16 @@
+First, we will use the "wget" command to get the strings file.
+
+cmd --> wget https://jupiter.challenges.picoctf.org/static/5bd86036f013ac3b9c958499adf3e2e2/strings
+
+
+Subsequently, we will extract human-readable text strings from the file using the "strings" tool.
+
+cmd --> strings strings
+
+We can now verify that we have obtained every string from the file. Thus, we will use the "grep" program to determine the specific string.
+
+cmd --> strings strings | grep pico
+
+Thus, we were given the flag.
+
+picoCTF{1T_827aee91} 5tRIng5}
