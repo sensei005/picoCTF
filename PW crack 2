@@ -1,0 +1,24 @@
+At first we will make a directory and store the two files in the same directory
+
+cmd --> wget https://artifacts.picoctf.net/c/14/level2.py
+cmd --> wget https://artifacts.picoctf.net/c/14/level2.flag.txt.enc
+
+Then we will run the python file
+After running the file we can see that its asking for a password
+So to get the password we will open the python file
+
+cmd --> vim level2.py
+
+On checking the command we see that the password is fragmented.
+So we will use python to concatenate it
+
+cmd --> 1) python
+        2) >>> chr(0x34) + chr(x65) + chr(0x63) + chr(0x39)
+
+We get the password --> 4ec9
+
+Now again after running the python file "level2.py" and putting the password that we got "4ec9"
+
+We get our flag
+
+picoCTF{tr45h_51ng1ng_9701e681}
