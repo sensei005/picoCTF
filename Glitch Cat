@@ -1,0 +1,20 @@
+We shall first start the instance.
+Following that, the "netcat" command is shown.
+
+
+cmd --> nc saturn.picoctf.net 64387
+
+The output we are receiving is fragmented.
+
+Thus, we will now concatenate it using Python.
+
+cmd --> Python
+
+Next, we'll make use of the netcat command's scattered output.
+
+cmd --> >>> 'picoCTF{gl17ch_m3_n07_' + chr(0x61) + chr(0x34) + chr(0x33) + chr(0x39) + chr(0x32) + chr(0x64) + chr(0x32) + chr(0x65) + '}'
+
+Thus, the flag is obtained.
+
+picoCTF{gl17ch_m3_n07_a4392d2e}
+
